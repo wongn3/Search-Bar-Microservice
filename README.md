@@ -6,7 +6,7 @@ This is a microservice that provides a simple search bar function for websites b
 The Result testers has 2 different calls.
 
 a. Search will act like the search bar and allow for user input. The user can type what they want and hit enter to
-submit their search.
+submit their search.   
 b. Result will display the results of the search. Given the user input. It will show results that match.
 
 Note: There is a "No Match Found" result if no results match.

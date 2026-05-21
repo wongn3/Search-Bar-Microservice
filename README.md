@@ -51,3 +51,5 @@ with open("response.txt", "w") as f:
 ------------------------------------------------------------------------------------
 
 ## 5. Sequence UML
+<img width="3750" height="2325" alt="CS361 Search MS Prototype 1 UML" src="https://github.com/user-attachments/assets/ca4395a5-a72d-488b-b3de-4fa774310152" />
+

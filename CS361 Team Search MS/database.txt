@@ -1,0 +1,5 @@
+Minecraft ~ minecraft-pg.html
+Arknights ~ arknights-pg.html
+Bongo Cat ~ bongo-pg.html
+#: AAA ~ genre-AAA-pg.html
+#: Indie ~ genre-indie-pg.html

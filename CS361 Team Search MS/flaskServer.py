@@ -18,7 +18,7 @@ def index():
 def searching():
     user_search = request.form["search"] # (access input from the html form)
 
-    with open("request.txt", "w") as f: # (write it into request)
+    with open("request.txt", "w") as f:
         f.write(user_search)
 
     # run the microservice now, directly here.

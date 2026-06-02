@@ -1,6 +1,6 @@
 # this is just for testing (getting a search input and sending it over to the microservice through a txt write)
 
-task = input("Which task you wanna test? [1 = Search | 2 = Result]: ") # (just splitting the two up, for clearner demonstration).
+selected_task = input("Which task you wanna test? [1 = Search | 2 = Result]: ") # (just splitting the two up, for clearner demonstration).
 
 if selected_task == "1":
     # get user input... a title to search up

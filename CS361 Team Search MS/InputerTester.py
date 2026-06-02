@@ -2,7 +2,7 @@
 
 task = input("Which task you wanna test? [1 = Search | 2 = Result]: ") # (just splitting the two up, for clearner demonstration).
 
-if task == "1":
+if selected_task == "1":
     # get user input... a title to search up
     # note: to do a genre search, just type "#: _your genere goes here_" [check database.txt for available genres to test]
     user_search = input("Very Fancy Search Bar: ")
@@ -11,7 +11,7 @@ if task == "1":
     with open("request.txt", "w") as f:
         f.write(user_search)
 
-if task == "2":
+if selected_task == "2":
     # if a result is sent back (by microservice to the response.txt), tester reads it.
     with open("response.txt", "r") as f:
         returned_result = f.read()
